@@ -1,0 +1,217 @@
+\documentclass[5pt]{article}
+
+\usepackage[a4paper, top= 0.5cm,bottom= 0.5cm,left= 0.5cm, right= 0.1cm, textwidth=10cm]{geometry}
+
+\usepackage{setspace}
+%\setstretch{0.9} % Zeilenabstand verringern
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{lingmacros}
+\usepackage{tree-dvips}
+\usepackage{booktabs}
+
+\usepackage{enumitem}
+\newlist{citemize}{itemize}{4}
+\setlist[citemize]{label=-,nosep,topsep=-\parskip}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{mathptmx}
+\usepackage{psfrag} 
+\usepackage{bigstrut}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{rotating}
+
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}
+
+\renewcommand*{\arraystretch}{1.6} % Zeilenabstand der Tabelle vergrößern
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+ \begin{tabular}{p{4cm}p{14.5cm}}
+ 	\toprule
+	\addlinespace
+    		Spielphase & Hinweis \\
+	\addlinespace
+    	
+	\midrule
+    	\addlinespace
+    		\textbf{Vorbereitung des Spiels }   & 
+								\begin{minipage} [t] {0.6\textwidth} 
+        								\begin{citemize}
+	   								\item Marker auf dem Spielplan verteilen
+									\item Geldscheine und Karten mischen und verdeckt plazieren 
+								\end{citemize} 
+								\end{minipage}\\
+     		1. Jeder  wählt eine Familie 				&	Er erhält 3 Markierungen, 5 Ortskarten und das Schweitzer Konto.
+												Jeder Spieler fungiert als Oberhaupt der Familie. Kommt das Oberhaupt ums Leben,
+												 tritt ein anderes Mitglied in der nächsten Spielrunde ans Runder. \\
+    
+     		2. Grundausstattung						& 	Jeder Spieler zieht 5 verdeckte Karten.  (Hausregel) \textit{Jeder spieler erhält einen Geldschein vom Stapel als Startkapital}.   \\
+    
+    		3. Wahl des Präsidenten. 					&	Die Wahl besteht aus Nominierung und Wahl. Jeder Spieler kann einen Kandidaten nominieren.
+													Bei der Wahl hat jeder Spieler eine Stimme plus eventueller Stimmen aus den "Politischen Karten".
+													Immer dann wenn der amtierende Präsident stirbt, zurücktritt oder des Amtes enthoben wird, muss ein neuer Präsident gewählt werden. \\
+	\addlinespace
+    	\midrule
+    		\textbf{Das politische Spiel }    \\
+    	\addlinespace
+     		
+		1. Politikkarten ziehen	& 	Kein spieler darf mehr als \textbf{6 Karten} in der Hand haben. Ausliegende Einflusskarten werden hier mitgezählt. Überzählige Karten müssen abgelegt/ausgespielt/verkauft oder verschenkt werden. \\
+         	
+		2. Ämtervergabe		& 	Der Präsident vergibt die restlichen 6 Ämter. Der Minister für Innere Sicherheit sollte einem Spieler deines Vertrauens gegeben werden. \\
+         	
+		3. Entwicklungshilfe 		& 	Der Präsident zieht 8 Geldscheine vom Stapel Entwicklungshilfe.\\
+
+		4. Der Haushalt 		& 	Jede Wahl besteht aus zwei Wahlgängen. Mehrere Wahlen nacheinander sind möglich. Deshalb beachten. 
+								Viele Stimmkarten können nur einmal ausgespielt werden (\textbf{für einen Wahlgang}) und sind dann verloren. Solche Karten sollten gezielt eingesetzt werden.
+								Wird der Haushalt beschlossen, muss der Präsident jedem Spieler das öffentlich versprochene Geld (mindestens) auszahlen.  
+								Wird der Haushalt abgelehnt ist immer ein Ein Putschvorwand ist ausgelöst, dann
+								\begin{citemize}
+	   								\item Präsident behält das gesamte Geld 
+									\item Die Bank ist für den Rest der Runde (inclusive Putsch) geschlossen
+ 								\end{citemize}
+								Der Innenminister kann jedoch eingreifen und den Haushalt mit Gewalt durchsetzen indem er mit seinen 4 Polizeieinheiten die Abgeordnetenkammer besetzt.
+								\begin{citemize}
+	   								\item Das Geld wird wie vorgeschlagen verteilt 
+									\item Die Bank ist wegen \textit{Mittagsruhe}, d.h. In der Bankphase geschlossen 
+ 								\end{citemize} \\
+
+		5. Aufenthaltsort wählen 	& 	 Aufenthaltsort Bank/Hauptquartier(HQ)/Freundin/Zuhause oder Nachtclub wählen oder ins Exil gehen. Im Hauptquartier(HQ) kann ein Putsch auch ohne Putschvorwand ausgelöst werden. In der Bank können Bankgeschäfte getätigt werden.\\
+
+		6. Attentate(Terrorphase) 	& 	 Es startet immer der Innenminister. Entweder ist die \textit{Bank sicher} \textbf{vor dem Innenministerium} oder \textit{Schießerei in der Bank}. Je nachdem ob der Innenminister in der Bank zuschlägt,
+								 muss der Status für die nächste Runde aktualisiert werden. Die restlichen Spieler folgen im Uhrzeigersinn. Hausregel die Anzahl der Auftragsattentäter wird nur durch das verfügbare Kapital limitiert.\\
+								 
+		6. Attentate(Auswertung) 	& 	 Alle müssen ihren Aufenthaltsort offen legen, um zu sehen, ob ein Attentat erfolg hatte.\\
+		
+		7. Bankgeschäfte 		& 	 Bargeld kann man nur auf das Schweizer Konto schaffen, wenn man in der Bank ist. Attentäter tauchen deshalb häufiger hier auf.\\
+
+		8. Putsch 				& 	 Ein Putsch kann von einem Spieler ausgelöst werden, wenn er  das HQ als Aufenthaltsort gewählt hat oder ein Putschvorwand besteht. Dies kann durch einen abgelehnten Haushalt oder durch Kartenereignisse hervorgerufen worden sein.
+								Der Spieler rechts vom Präsidenten startet. Wird kein Putsch ausgelöst startet das Spiel startet mit einer neuen Runde.\\    
+    
+    
+    \bottomrule
+    \end{tabular}
+
+
+
+
+
+ \begin{tabular}{p{4cm}p{14.5cm}}
+ 	\toprule
+	\addlinespace
+    		Spielphase & Hinweis \\
+	\addlinespace
+    	
+	\midrule
+    	
+	\textbf{Das Putsh Spiel }    		&	Jede \textbf{6} ist ein Treffer. Für jede bewaffnete Einheit  bzw. für zwei unbewaffnete Einheiten ein Würfel. \\
+  	\addlinespace
+     	
+	Auftaktphase 				& 	Nachdem ein Putsch ausgelöst wurde startet die Auftaktphase. \textbf{Nur Rebellen}. Jeder Spieler der in der Auftaktphase Einheiten bewegt oder auf das Spielbrett bringt wird rebellisch und dreht die Amtskarte auf die entsprechende Seite.    \\
+
+	Phase 1-6 Kanonenboot		& 	In Jeder der 6 Phasen entscheidet der Marine-Admiral ob er mit \textbf{3 Würfeln} ein Viertel unter Beschuss nimmt. \\
+	
+	Phase 1-6 Luftwaffe			& 	Der General der Luftwaffe kann einen Luftangriff auf ein Viertel \textbf{6 Würfeln} vornehmen, 
+								es stehen jedoch nur \textbf{3 Luftangriffe} pro Putsch zur Verfügung.  \\
+								
+	Phase 1-6 Bewegung		&	Jeder Spieler darf pro Phase eine Gruppe von Einheiten bewegen. Eine Aufteilung einer Gruppe ist möglich. \\
+	
+	Phase 1-6 Kämpfe 			&	Nachdem alle Spieler gezogen sind beginnen die Kämpfe. Die Einheit die sich bereits in einem Viertel befand hat das \textbf{Eröffnungsfeuer}. Das bedeutet, dass in der ersten Salve die Einheiten sofort entfernt werden und nur die übrigen in der ersten Salve zurückschießen können. Bei den folgenden zwei Salven ist das Feuer beider Seiten zeitgleich.\\
+	
+	Phase 1-6 Rückzüge			&	Jedes Viertel darf nur von einem Spieler kontrolliert werden. Derjenige mit den meisten Verlusten muss sich in das Viertel zurückziehen woher er gekommen ist, sollte dies mittlerweile besetzt sein ... \\
+	
+	Putschauswirkungen			&	Jeder Spieler bis auf den Rebellenführer und dem Präsidenten können jetzt nochmals die Fronten wechseln. Die die Mehrheit der 5 rot markierten Bereiche bestimmen den Putschausgang. Nicht besetzte Viertel sind Regierungstreu.
+								Sollte die Regierung gewinnen, kann der Präsident einen Aufständischen hinrichten. 
+								Wenn die Aufständischen gewinnen bilden diese eine Junta uns wählen den neuen Präsidenten. Jeder hat nur eine Stimme, bei unentschieden entscheidet der Rebellenführer. 
+								Der neue Präsident darf einen Spieler (auch Aufständische) vor ein Erschießungsgericht stellen.\\			
+	
+
+  	\addlinespace
+    	\midrule
+    		\textbf{Exil}   \\
+    	\addlinespace
+	\multicolumn{2}{p{18.5 cm}}{
+     	Ein Spieler befindet sich im Exil wenn er in der Aufenthaltsphase eine seiner Marken auf eine der Botschaften legt.
+	Ein Spieler kann außerdem auch während eines Putsches ins Exil gehen.
+	
+	Folgendes ist zu beachten:
+	\begin{citemize}
+		\item Ein Spieler in einer Botschaft kann weder vor ein Erschießungskommando gestellt werden, noch kann er Opfer eines Attentates werden. Er kann keine Bankgeschäfte tätigen und er zieht keine politischen Karten. Die politischen Karten behält er. 
+		\item Ein Spieler im Exil kann keine politischen Karten ausspielen, er kann sie aber ablegen, verschenken oder von anderen Spielern Karten erhalten.
+		\item Ein Spieler im Exil kann nicht an Abstimmungen teilnehmen, kann keine Attentatsversuche unternehmen und während eines Putsches keine Einheiten führen.
+		\item Der Schwager des Präsidenten kann die Stimmen und die Einheiten des Amtes eines im Exil befindlichen Spielers benutzen.
+	\end{citemize}
+	
+	Ein Spieler in Exil kann seine Rückkehr in die Republica des la Bananas zu jeder Zeit ankündigen.
+	Er kehrt ohne Gefahr zurück, wenn:
+	\begin{citemize}
+		\item Ein der Präsident getötet wurde und ein neuer noch nicht gewählt wurde.
+		\item Ein Putsch im Gange ist und die Botschaft in der sich der Spieler befindet von einem Spieler besetzt ist, der dem Exilanten freies Geleit gewährt.
+	\end{citemize}
+	
+	Kehrt er zu einem anderen Zeitpunkt zurück, so kann der Minister für innere Sicherheit sofort ein Attentat unternehmen, dass automatisch erfolgreich ist.
+	Dem Zurückkehrenden passiert jedoch nichts, wenn:
+	\begin{citemize}
+		\item Das Amt des Ministers eingefroren ist.
+		\item Er eine Karte ausspielt die ihn vor Attentaten schützt.
+		\item Der Minister entscheidet dem Exilanten nichts zu tun.
+	\end{citemize}
+	
+	
+	
+	
+	
+	
+	 }    \\
+
+ 
+    
+    
+    
+    \bottomrule
+    \end{tabular}
+    
+    
+    
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% END
+    
+    
+
+    
+
+
+\begin{sidewaystable}[htbp]
+  \centering
+  \caption{Add caption}
+    \begin{tabular}{p{7cm}p{7cm}p{7cm}}
+    \toprule
+    Confidence in observed changes (latter half of the 20th century) & Changes in Phenomenon & Confidence in projected changes (during the 21st century) \\
+    \midrule
+    Likely & Higher maximum temperatures and more hot days\up{1} over all land areas & Very likely \\
+    Very likely & Higher minimum temperatures, fewer cold days and frost days over nearly all land areas & Very likely \\
+    Very likely & Reduced diurnal temperature range over most land areas & Very likely \\
+    Likely, over many areas & Increase of heat index\up{2} over land areas & Very likely, over most areas \\
+Likely, over many Northern Hemisphere mid- to high latitude landareas & \multicolumn{1}{l}{More intense precipitation events\up{3}} & Very likely, over many areas \\
+    \multicolumn{1}{l}{Likely, in a few areas} & \multicolumn{1}{p{7cm}}{Increased summer continental drying and associated risk of drought} & Likely, over most mid-latitude continental interiors. (Lack of consistent projections in other areas)\\
+    \multicolumn{1}{m{7cm}} {Not observed in the few analyses available} & \multicolumn{1}{m{7cm}} {Increase in tropical cyclone peak wind intensities\up{4}} & Likely, over some areas \\
+    Insufficient data for assessment & Increase in tropical cyclone mean and peak precipitation intensities\up{4} & Likely, over some areas \\ \hline
+\multicolumn{ 3}{m{0.9\textwidth}} {\up{1}Hot days refer to a day whose maximum temperaturereaches or exceeds some temperature that is considered a critical threshold \up{} for impacts on human and natural systems. Actual thresholds vary regionally, but typical values include 32$^{\circ}$C, 35$^{\circ}$C or 40$^{\circ}$C.} \\
+  \multicolumn{3}{l}{\up{2}Heat index refers to a combination of temperature and humidity that measures effects on human comfort.} \\
+    \multicolumn{3}{l}{\up{3}For other areas, there are either insufficient data or conflicting analyses.} \\
+   \multicolumn{3}{l} {\up{4}Past and future changes in tropical cyclone location and frequency are uncertain.}\\
+    \bottomrule
+    \end{tabular}
+  \label{tab:addlabel} 
+\end{sidewaystable}
+\end{document}
