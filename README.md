@@ -1,4 +1,4 @@
-# Junta Tabletop Game 
+# JUNTA Tabletop Game 
 ## Karten
 ### Bankräuber
 * Darf nur in der Phase
