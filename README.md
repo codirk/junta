@@ -1,5 +1,6 @@
-# Karten
-## Bankräuber
+# Junta Tabletop Game 
+## Karten
+### Bankräuber
 * Darf nur in der Phase
   Bankgeschäfte gespielt werden.
 * Als Aufenthaltsort muss 
